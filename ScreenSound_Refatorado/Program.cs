@@ -28,16 +28,7 @@ void ExibirOpcoesDoMenu()
 
     Console.Write("\nDigite a sua opção: ");
     string opcaoEscolhida = Console.ReadLine()!;
-    if (string.IsNullOrWhiteSpace(opcaoEscolhida) || string.IsNullOrEmpty(opcaoEscolhida))
-    {
-        Console.WriteLine("Opcao Invalida! Digite novamente");
-        Thread.Sleep(1000);
-        Console.Clear();
-        ExibirOpcoesDoMenu();
-    }
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
-    
-        
 
     switch (opcaoEscolhidaNumerica)
     {
@@ -88,12 +79,6 @@ void RegistrarBanda()
     ExibirTituloDaOpcao("Registro das bandas");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
-    if (nomeDaBanda == string.Empty)
-        Console.WriteLine("empty san");
-    else if (nomeDaBanda == null)
-        Console.WriteLine("nulo");
-    else
-        Console.WriteLine("eita");
     bandasRegistradas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
     Thread.Sleep(4000);
