@@ -71,7 +71,8 @@ void ExibirOpcoesDoMenu()
             ExibirOpcoesDoMenu();
             break;
         case -1:
-            Console.WriteLine("Tchau tchau :)");
+            MenuSair menuSair = new MenuSair();
+            menuSair.Executar(bandasRegistradas);
             break;
         default:
             Console.WriteLine("Opção inválida");
