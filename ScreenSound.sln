@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "ScreenSound\ScreenSound.csproj", "{A9CCE41C-6657-42BF-AED4-F3F578033037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound_Refatorado", "ScreenSound_Refatorado\ScreenSound_Refatorado.csproj", "{9D89B2C9-A1C4-4375-B0C0-2715876BCFE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound_Refatorado1", "ScreenSound_Refatorado\ScreenSound_Refatorado1.csproj", "{9D89B2C9-A1C4-4375-B0C0-2715876BCFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound_Refatorado2", "ScreenSound_Refatorado2\ScreenSound_Refatorado2.csproj", "{AF1F9A0F-9874-45E7-8376-D111DA5ACCF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{9D89B2C9-A1C4-4375-B0C0-2715876BCFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D89B2C9-A1C4-4375-B0C0-2715876BCFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D89B2C9-A1C4-4375-B0C0-2715876BCFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1F9A0F-9874-45E7-8376-D111DA5ACCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1F9A0F-9874-45E7-8376-D111DA5ACCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1F9A0F-9874-45E7-8376-D111DA5ACCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1F9A0F-9874-45E7-8376-D111DA5ACCF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF951708-DE4C-4F44-88D1-07AEF40504A0}
 	EndGlobalSection
 EndGlobal

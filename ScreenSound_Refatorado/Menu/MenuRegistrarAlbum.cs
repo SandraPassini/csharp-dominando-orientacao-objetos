@@ -1,9 +1,9 @@
-﻿using ScreenSound_Refatorado.Menu;
-using ScreenSound_Refatorado.Modelos;
+﻿using ScreenSound_Refatorado.Modelos;
 
+namespace ScreenSound_Refatorado.Menu;
 internal class MenuRegistrarAlbum : Menu
 {
-    internal void Executar(Dictionary<string, Banda> bandasRegistradas)
+    public void Executar(Dictionary<string, Banda> bandasRegistradas)
     {
         Console.Clear();
         ExibirTituloDaOpcao("Registro de álbuns");

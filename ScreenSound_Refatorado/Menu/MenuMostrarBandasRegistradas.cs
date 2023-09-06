@@ -1,5 +1,4 @@
-﻿using ScreenSound_Refatorado.Menu;
-
+﻿namespace ScreenSound_Refatorado.Menu;
 internal class MenuMostrarBandasRegistradas : Menu
 {
     internal void Executar(Dictionary<string, ScreenSound_Refatorado.Modelos.Banda> bandasRegistradas)
