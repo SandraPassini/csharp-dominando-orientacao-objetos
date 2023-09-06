@@ -12,8 +12,8 @@
     public double Media => notas.Average();
     public List<Album> Albuns => albuns;
 
-    public void AdicionarAlbum(Album album) 
-    { 
+    public void AdicionarAlbum(Album album)
+    {
         albuns.Add(album);
     }
 

@@ -36,8 +36,8 @@ void ExibirOpcoesDoMenu()
         ExibirOpcoesDoMenu();
     }
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
-    
-        
+
+
 
     switch (opcaoEscolhidaNumerica)
     {

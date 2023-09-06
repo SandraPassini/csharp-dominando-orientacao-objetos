@@ -1,4 +1,5 @@
-﻿class Album
+﻿namespace ScreenSound_Refatorado.Modelos;
+class Album
 {
     private List<Musica> musicas = new List<Musica>();
 
