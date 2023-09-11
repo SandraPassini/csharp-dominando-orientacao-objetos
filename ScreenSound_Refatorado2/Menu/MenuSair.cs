@@ -4,7 +4,7 @@ namespace ScreenSound_Refatorado.Menu;
 
 internal class MenuSair : Menu
 {
-    internal void Executar(Dictionary<string, Banda> bandasRegistradas)
+    public override void Executar(Dictionary<string, Banda> bandasRegistradas)
     {
         Console.WriteLine("Tchau tchau :)");
     }

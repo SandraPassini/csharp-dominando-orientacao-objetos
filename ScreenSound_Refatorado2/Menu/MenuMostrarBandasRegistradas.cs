@@ -1,9 +1,9 @@
 ﻿namespace ScreenSound_Refatorado.Menu;
 internal class MenuMostrarBandasRegistradas : Menu
 {
-    internal void Executar(Dictionary<string, ScreenSound_Refatorado.Modelos.Banda> bandasRegistradas)
+    public override void Executar(Dictionary<string, ScreenSound_Refatorado.Modelos.Banda> bandasRegistradas)
     {
-        Console.Clear();
+        base.Executar(bandasRegistradas);
         ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
 
         foreach (string banda in bandasRegistradas.Keys)
